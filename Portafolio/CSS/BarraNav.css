@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(35, 34, 34);
+    font-size: 25px;
+    
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+}
+
+/*.active {
+    
+    border-radius: 2%;
+    font-weight: bolder;
+    font-size: 26px;
+    margin-right: 150px;
+    
+}
+*/
