@@ -5,7 +5,9 @@ ul {
     overflow: hidden;
     background-color: rgb(35, 34, 34);
     font-size: 25px;
-    
+
+    position: sticky;  /*sticky NAVBAR*/
+    top: 0px;
 }
 
 li {
@@ -38,3 +40,6 @@ li a:hover:not(.active) {
     
 }
 */
+
+
+
