@@ -1,0 +1,54 @@
+/* (A) STICKY MENU */
+#sticky-menu {
+    /* (A1) STICK TO TOP ON SCROLL */
+    position: sticky;
+    top: 0; left: 0;
+   
+    /* (A2) LAYOUT + BACKGROUND */
+    display: flex;
+    background-color: rgb(35, 34, 34);
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    
+    
+  }
+  
+  /* (B) MENU ITEMS */
+  #sticky-menu a {
+    /* (B1) AUTO WIDTH */
+    width: 100%;
+    padding: 10px 0;
+   
+    /* (B2) TEXT */
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+   
+  /* (B3) ON HOVER */
+  #sticky-menu a:hover { background: #691717; }
+   
+  /* (B4) MENU ITEM ICONS */
+  #sticky-menu i {
+    text-decoration: none;
+    font-style: normal;
+  }
+  
+  /* (X) DOES NOT MATTER - FOR DEMO */
+  html, body {
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+  #page-header, #page-contents { padding: 10px; }
+  #page-header {
+    font-weight: bold;
+    font-size: 2em;
+    background: #c6efff;
+  }
+  #page-contents {
+    height: 2000px;
+    background: #ffc7c7;
+  }
